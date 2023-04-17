@@ -5,17 +5,17 @@
     const saveTheWorld = () => `El mundo esta salvado`;
 
 
-    let myFunction;
+    let myFunction: () => string;
 
 
-    myFunction = 10;
-    console.log(myFunction);
+    //*myFunction = 10;
+    //*console.log(myFunction);
 
-    myFunction = addNumber;
-    console.log(myFunction( 2 , 3 ));
+    //!myFunction = addNumber;
+    //!console.log(myFunction( 2 , 3 ));
 
-    myFunction = greet;
-    console.log(myFunction( "Fernando" ));
+    //?myFunction = greet;
+    //?console.log(myFunction( "Fernando" ));
 
     myFunction = saveTheWorld;
     console.log(myFunction());
